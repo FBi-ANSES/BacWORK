@@ -1,0 +1,7 @@
+name: ncbi-genome-download
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ncbi-genome-download=0.3.3

@@ -1,0 +1,7 @@
+name: ncbi-acc-download
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ncbi-acc-download=0.2.8

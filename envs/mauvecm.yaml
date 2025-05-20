@@ -1,0 +1,8 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - mauve=2.4.0.r4736
+  - perl-sort-naturally=1.03

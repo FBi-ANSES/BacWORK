@@ -1,0 +1,10 @@
+{
+	"genus":"Clostridium",
+	"species":"perfringens",
+	"PLSdb_fasta":"/global/bio/data/PLSDB/all_plsdb.fna",
+	"taxonomy-tree":"db/nodes.dmp",
+	"name-table":"db/names.dmp",
+	"database_directory":"db/plascopedb",
+	"threads":32,
+	"ram":64000
+}

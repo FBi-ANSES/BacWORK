@@ -1,0 +1,6 @@
+{
+	"min_reads_deep_coverage":30,
+	"min_reads_breadth_coverage":90,
+	"max_number_of_contigs":200,
+	"min_assembly_breadth_coverage":90
+}

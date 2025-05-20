@@ -1,0 +1,25 @@
+{
+	"complete_genome_sketch_database": "/exterieur/BacWork_db/complete_genome_sketch_database/20241115/NCBI_complete_bacterial_genomes_20241115.msh",
+	"speciesfinder_database": "/exterieur/BacWork_db/speciesfinder_database/SILVA_138/",
+	"kraken2_database": "/exterieur/BacWork_db/kraken2_database/Standard-8_20240526/",
+	"confindr_database": "/exterieur/BacWork_db/confindr_database/20240808/",
+	"resfinder_database": "/exterieur/BacWork_db/resfinder_database/2.3.2/",
+	"pointfinder_database": "/exterieur/BacWork_db/pointfinder_database/4.1.0/",
+	"disinfinder_database": "/exterieur/BacWork_db/disinfinder_database/2.0.1/",
+	"virulencefinder_database": "/exterieur/BacWork_db/virulencefinder_database/2.0.0/",
+	"vibrant_database": "/exterieur/BacWork_db/vibrant_database/20220901/",
+	"vibrant_files": "/exterieur/BacWork_db/vibrant_files/20220901/",
+	"plasmidfinder_database": "/exterieur/BacWork_db/plasmidfinder_database/2.1.0/",
+	"plascope_database":"/exterieur/BacWork_db/plascope_database/20241030/",
+	"bakta_database": "/exterieur/BacWork_db/bakta_database/5.1/",
+	"busco_database": "/exterieur/BacWork_db/busco_database/bacteria_odb10_20240108/",
+	"cgmlst_database": 
+		{
+			"Staphylococcus":"/exterieur/BacWork_db/cgmlst_database/staphylococcus/RidomSeqSPHERE_20230628/",
+			"Salmonella":"/exterieur/BacWork_db/cgmlst_database/salmonella/INNUENDO_20220419/",
+			"Listeria":"/exterieur/BacWork_db/cgmlst_database/listeria/PASTEUR_20220415/",
+			"Clostridium":"/exterieur/BacWork_db/cgmlst_database/clostridium/ANSES_Cp_20230328/",
+			"Vibrio":"/nfs/data/db/chewbbaca/vibrio_parahaemolyticus/05072024/",
+			"Taylorella_equi": "/nfs/data/db/chewbbaca/taylorella_equi/ANSES_TE_20230626/"
+		}
+}

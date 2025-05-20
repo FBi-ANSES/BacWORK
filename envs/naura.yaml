@@ -1,0 +1,8 @@
+name: naura
+channels:
+  - conda-forge
+  - bioconda
+  - afelten
+dependencies:
+  - biopython=1.72
+  - naura=0.5

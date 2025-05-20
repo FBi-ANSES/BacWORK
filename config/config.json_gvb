@@ -1,0 +1,90 @@
+{
+    "WORKDIR": "/nfs/data/afelten/BacWork/test",
+    "FASTQ_DIR": "/nfs/data/db/ARTwork2_db/test_dataset/fastq/",
+    "SNP_ref": {
+            "Salmonella_enterica": "NC_003197.2",
+            "Listeria_monocytogenes": "NC_003210.1",
+            "Staphylococcus_aureus": "NC_016928.2",
+            "Clostridium_perfringens": "NC_003366.1",
+            "Bacillus_cereus": "NC_011658.1"
+    },
+    "samples": [
+        {
+            "SampleID": "Salmonella_enterica",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Salmonella",
+                "Species": "enterica"
+            },
+            "SNP_reference": "NC_003210.1"
+        },
+		{
+            "SampleID": "Listeria_monocytogenes",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Listeria",
+                "Species": "monocytogenes"
+            },
+            "SNP_reference": "NC_003210.1"
+        },
+        {
+            "SampleID": "Clostridium_perfringens",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Clostridium",
+                "Species": "perfringens"
+            },
+            "SNP_reference": "NC_003366.1"
+        },
+        {
+            "SampleID": "Staphylococcus_aureus",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Staphylococcus",
+                "Species": "aureus"
+            },
+            "SNP_reference": "CP003166.2"
+        },
+        {
+            "SampleID": "Bacillus_cereus",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Bacillus",
+                "Species": "cereus"
+            },
+            "SNP_reference": "CP001177.1"
+        },
+        {
+            "SampleID": "Campylobacter_coli",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Campylobacter",
+                "Species": "coli"
+            },
+            "SNP_reference": "NZ_CP046317.1"
+        },
+        {
+            "SampleID": "Escherichia_coli",
+            "Project": "test",
+            "Supplier": "Anses",
+            "Sequencing_center": "ICM",
+            "Phylogeny": {
+                "Genus": "Escherichia",
+                "Species": "coli"
+            },
+            "SNP_reference": "NC_000913.3"
+        }
+    ]
+}

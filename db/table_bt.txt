@@ -1,0 +1,20 @@
+Bt	Bt_cwlA	Bt_ftsK	Bt_group_3916	Bt_group_20361	Btk_group_20749	Bt_sdpR	
+aizaiwai	Bta_apr						
+kurstaki	Btk_group_27293	Btk_group_27336					
+clusterA	Cluster_A_group_10114						
+clusterB	Cluster_B_rapF	ClusterB_group_20667					
+clusterC	Cluster_C_lexA						
+clusterD	Cluster_D_clpP1						
+###							
+	Bt	aizaiwai	kurstaki	clusterA	clusterB	clusterC	clusterD
+Bacillus thuringiensis	1	-1	-1	0	0	0	0
+Bacillus thuringiensis	1	1	1	0	0	0	0
+not Bacillus thuringiensis	-1	0	0	0	0	0	0
+Bacillus thuringiensis aizaiwai not clustered	1	1	-1	-1	-1	0	0
+Bacillus thuringiensis aizaiwai not clustered	1	1	-1	1	1	0	0
+Bacillus thuringiensis kurstaki not clustered	1	-1	1	0	0	-1	-1
+Bacillus thuringiensis kurstaki not clustered	1	-1	1	0	0	1	1
+Bacillus thuringiensis aizaiwai cluster A	1	1	-1	1	-1	0	0
+Bacillus thuringiensis aizaiwai cluster B	1	1	-1	-1	1	0	0
+Bacillus thuringiensis kurstaki cluster C	1	-1	1	0	0	1	-1
+Bacillus thuringiensis kurstaki cluster D	1	-1	1	0	0	-1	1

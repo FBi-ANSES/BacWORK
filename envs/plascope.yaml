@@ -1,0 +1,6 @@
+name: plascope
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - plascope=1.3.1

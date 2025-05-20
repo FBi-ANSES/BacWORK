@@ -1,0 +1,107 @@
+{	
+	"Analysis": {
+		"reads preprocessing": "yes",
+		"assembly_and_annotation": "yes",
+		"sequence_typing": "yes",
+		"species_specific_steps": "yes",
+		"resume": "yes"
+	},
+	"mail": {
+		"send_mail": "no",
+		"server": "smtp-int.afssa.fr",
+		"port": 25,
+		"mailfrom": "bioinfo@anses.fr",
+		"recipients": [""]
+	},
+	"fastqc": {
+		"threads": 4
+	},
+	"fastp": {
+		"threads": 4,
+		"options": "--detect_adapter_for_pe --correction -5 -3 -r -M 25"
+	},
+	"confindr": {
+		"threads": 4,
+		"SNVs_threshold":15
+	},
+	"kraken2": {
+		"threads": 4,
+		"confidence":0
+	},
+	"mash": {
+		"threads": 4,
+		"pvalue": 0,
+		"exclude": "plasmid"
+	},
+	"bbmap": {
+		"threads" : 8,
+		"ram" : "16g",
+		"covbinsize": 1000,
+		"k": 13,
+		"other_options": "nodisk"
+	},
+	"shovill": {
+		"threads" : 10,
+		"minlen": 200,
+		"ram": 16,
+		"depth": 0
+	},
+	"mauvecm": {
+		"threads" : 4
+	},
+	"assembly_and_annotation_filter":{
+		"mincov" : 2
+	},
+	"bakta":{
+		"threads" : 10
+	},
+	"quast":{
+		"threads" : 8
+	},
+	"busco":{
+		"threads" : 10,
+		"mode" : "genome",
+		"lineage" : "--auto-lineage-prok",
+		"other_options" : "--offline"
+	},
+	"abricate": {
+		"threads" : 4,
+		"mincov" : 80,
+		"minid" : 80
+	},
+	"vibrant": {
+		"threads" : 4
+	},
+	"plascope": {
+		"threads" : 8
+	},
+	"blast": {
+		"threads" : 4
+	},
+	"stecfinder": {
+		"threads" : 4
+	},
+	"sistr": {
+		"threads" : 4
+	},
+	"seqsero2": {
+		"threads": 4,
+		"mapping":"mem",
+		"modele":"k"
+	},
+	"spaTyper": {
+		"spa_repeat_file":"db/spaTyper/sparepeats.fasta",
+		"repeat_order_file":"db/spaTyper/spatypes.txt"
+	},
+	"mlst": {
+		"threads" : 2
+	},
+	"chewbbaca": {
+		"threads" : 2,
+		"Listeria" : "PASTEUR_20220415"
+	},
+	"naura": {
+		"threads" : 4,
+		"others" : "--keepBlastAln --noDrift"
+	}
+}	

@@ -1,0 +1,6 @@
+name: btyper3
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - btyper3=3.4.0

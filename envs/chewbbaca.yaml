@@ -1,0 +1,12 @@
+name: chewbbaca
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - numpy=1.23.5
+  - biopython=1.81
+  - chewbbaca=3.1.2
+  - grapetree=2.1
+
+

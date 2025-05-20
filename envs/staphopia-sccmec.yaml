@@ -1,0 +1,5 @@
+channels:
+    - bioconda
+    - conda-forge
+dependencies:
+    - staphopia-sccmec=1.0.0

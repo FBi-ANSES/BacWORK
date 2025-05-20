@@ -1,0 +1,7 @@
+name: confindr
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - confindr=0.8.1
+

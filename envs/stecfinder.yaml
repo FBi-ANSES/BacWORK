@@ -1,0 +1,5 @@
+channels:
+    - bioconda
+    - conda-forge
+dependencies:
+    - stecfinder=1.1.0
