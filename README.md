@@ -1,28 +1,26 @@
 # Bacwork, an integrated workflow designed for flexible analysis of sequencing data of food bacterial pathogens
 
 
-[TOC]
-
 ## Table of Contents
 
 - [Description](#Description)
 - [Citation](#Citation)
 - [Installation](#Installation)
   - [Requirements](#Requirements)
-  - [Download from source](#Download from source)
-- [Database Setup](#Database Setup)
-  - [Database of complete reference genomes](#Database of complete reference genomes)
-  - [Confindr rMLST database](#Confindr rMLST database)
-  - [Speciesfinder database](#Speciesfinder database)
-  - [Kraken2 database](#Kraken2 database)
-  - [Resfinder, Pointfinder, disinfinder, virulencefinder and plasmidfinder databases](#Resfinder, Pointfinder, disinfinder, virulencefinder and plasmidfinder databases)
-  - [Vibrant database](#Vibrant database)
-  - [Bakta database](#Bakta database)
-  - [Busco database](#Busco database)
-  - [Species-specific Plascope databases](#Species-specific Plascope databases)
-  - [Chewbbaca databases](#Chewbbaca databases)
+  - [Download from source](#Download-from-source)
+- [Database Setup](#Database-Setup)
+  - [Database of complete reference genomes](#Database-of-complete-reference-genomes)
+  - [Confindr rMLST database](#Confindr-rMLST-database)
+  - [Speciesfinder database](#Speciesfinder-database)
+  - [Kraken2 database](#Kraken2-database)
+  - [Resfinder, Pointfinder, disinfinder, virulencefinder and plasmidfinder databases](#Resfinder,-Pointfinder,-disinfinder,-virulencefinder-and-plasmidfinder-databases)
+  - [Vibrant database](#Vibrant-database)
+  - [Bakta database](#Bakta-database)
+  - [Busco database](#Busco-database)
+  - [Species-specific Plascope databases](#Species-specific-Plascope-databases)
+  - [Chewbbaca databases](#Chewbbaca-databases)
 - [Usage](#Usage)
-  - [Bacterial species compatible](#Bacterial species compatible)
+  - [Bacterial species compatible](#Bacterial-species-compatible)
   - [Configuration](#Configuration)
     - [config.json](#config.json)
     - [config_tools.json](#config_tools.json)
@@ -30,8 +28,8 @@
     - [config_quality.json](#config_quality.json)
   - [Execution](#Execution)
 - [Results](#Results)
-  - [Results Directory Structure](#Results Directory Structure)
-  - [JSON output files](#JSON output files)
+  - [Results Directory Structure](#Results-Directory-Structure)
+  - [JSON output files](#JSON-output-files)
 - [License](#License)
 
 
