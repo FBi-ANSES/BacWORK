@@ -1,405 +1,75 @@
 {
-    "WORKDIR": "/scratch/v.chesnais/BacWork/Validation_Listeria",
-    "FASTQ_DIR": "/global/bio/sequencage/reads/Listeria/Validation_cgmlst_26092023/",
+    "WORKDIR": "ABSOLUTE_PATH_TO_RESULT",
+    "FASTQ_DIR": "ABSOLUTE_PATH_TO/fastq/",
     "samples": [
         {
-            "SampleID": "22SEL506LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Salmonella_enterica",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
+            "Phylogeny": {
+                "Genus": "Salmonella",
+                "Species": "enterica"
+            }
+        },
+		{
+            "SampleID": "Listeria_monocytogenes",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
                 "Genus": "Listeria",
                 "Species": "monocytogenes"
             }
         },
         {
-            "SampleID": "22SEL507LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Clostridium_perfringens",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
+                "Genus": "Clostridium",
+                "Species": "perfringens"
             }
         },
         {
-            "SampleID": "22SEL508LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Staphylococcus_aureus",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
+                "Genus": "Staphylococcus",
+                "Species": "aureus"
             }
         },
         {
-            "SampleID": "22SEL509LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Bacillus_cereus",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
+                "Genus": "Bacillus",
+                "Species": "cereus"
             }
         },
         {
-            "SampleID": "22SEL510LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Campylobacter_coli",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
+                "Genus": "Campylobacter",
+                "Species": "coli"
             }
         },
         {
-            "SampleID": "22SEL512LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
+            "SampleID": "Escherichia_coli",
+            "Project": "test",
+            "Supplier": "NA",
+            "Sequencing_center": "NA",
             "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "22SEL513LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0008",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0009",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0010",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0011",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0012",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0013",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0014",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0015",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0016",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "FR_ANSES_strain0017",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech107",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech309",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech330",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech344",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech355",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech417",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech447",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "Ech465",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL126LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL127LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL128LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL129LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL130LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL131LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL132LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL133LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL134LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "20SEL135LM",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "429",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "97",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "105",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "146",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
-            }
-        },
-        {
-            "SampleID": "386",
-            "Project": "",
-            "Supplier": "",
-            "Sequencing_center": "",
-            "Phylogeny": {
-                "Genus": "Listeria",
-                "Species": "monocytogenes"
+                "Genus": "Escherichia",
+                "Species": "coli"
             }
         }
     ]

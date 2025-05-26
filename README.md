@@ -27,6 +27,7 @@
     - [config_path.json](#config_path.json)
     - [config_quality.json](#config_quality.json)
   - [Execution](#Execution)
+  - [Workflow Test](#Workflow-Test)
 - [Results](#Results)
   - [Results Directory Structure](#Results-Directory-Structure)
   - [JSON output files](#JSON-output-files)
@@ -317,6 +318,16 @@ The number of parallel jobs can be adjusted based on available resources. It is 
 **Note 1:** If running the workflow on a computing cluster, it is advisable to add the `--cluster` argument (for Snakemake 7.25.0) or create a profile (more recent versions of Snakemake).
 
 **Note 2:** The first run of the workflow can take a long time due to the installation of multiple Conda packages.
+
+
+## Workflow Test
+
+1. Download the test dataset available [here](https://doi.org/10.5281/zenodo.15516317).
+2. Unzip the archive and copy the `config.json` file into the `config` folder of BacWORK.  
+   Before running, make sure to update the `WORKDIR` and `FASTQ_DIR` variables in the `config.json` file.
+3. If not already done, download the required databases and update the `config_path.json` file accordingly.
+4. Run the workflow.
+
 
 ## Results
 
