@@ -198,7 +198,13 @@ snakemake -s make_plascopedb.smk -k --use-conda --conda-frontend mamba --jobs 4
 
 ### Chewbbaca databases
 
-coming soon
+Download cgMLST schema on chewieNS or other repository  
+Adapt schema to chewBBACA: */path/to/OutputFolder* path should be use when running cgMLST in BacWORK
+
+```
+chewBBACA.py PrepExternalSchema -g /path/to/ExternalSchemaFolder -o /path/to/OutputFolder
+```
+
 
 ## Usage
 
